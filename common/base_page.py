@@ -24,26 +24,25 @@ def get_driver(browser='chrome'):
     return driver
 
 
+def save_error_screenshot(func):
+    """ 装饰方法异常时进行保存截图 """
+    @functools.wraps(func)
+    def wrapper(obj, *args, **kwargs):
+        try:
+            res = func(obj, *args, **kwargs)
+            return res
+        except Exception as err:
+            if not os.path.exists(os.path.join(screenshots_path, str(now))):
+                os.makedirs(os.path.join(screenshots_path, str(now)))
+            obj.driver.save_screenshot(os.path.join(os.path.join(screenshots_path, str(now)), f'{time.time()}.png'))
+            raise err
+    return wrapper
+
+
 class BasePage:
     def __init__(self, driver):
-        # self.driver = driver
-        self.driver = webdriver.Chrome()
-
-    def error_screen(self):
-        """ 装饰方法异常时进行保存截图 """
-        def outer(func):
-            @functools.wraps(func)
-            def wrapper(*args, **kwargs):
-                try:
-                    res = func(*args, **kwargs)
-                    return res
-                except Exception as err:
-                    if not os.path.exists(os.path.join(screenshots_path, str(now))):
-                        os.makedirs(os.path.join(screenshots_path, str(now)))
-                    self.driver.save_screenshot(os.path.join(os.path.join(screenshots_path, str(now)), f'{time.time()}.png'))
-                    raise err
-            return wrapper
-        return outer
+        self.driver = driver
+        # self.driver = webdriver.Chrome()
 
     def find_element(self, locate_type, value, error_msg=None, timeout=30):
         """

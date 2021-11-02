@@ -24,7 +24,7 @@ data_path = os.path.join(root_path, 'data')
 # 设置report存放路径
 report_path = os.path.join(root_path, 'reports')
 now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-report_name = os.path.join(root_path, now + '.html')
+report_name = os.path.join(report_path, now + '.html')
 
 # 设置log存放路径
 log_path = os.path.join(root_path, 'logs')
