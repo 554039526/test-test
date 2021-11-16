@@ -8,7 +8,7 @@
 import pytest
 from common.utils import read_csv, csv_to_dict
 from common.base_page import save_error_screenshot
-from common.page_details.login_page import LoginPage
+from common.page_details.pc_agent.page_01_login import LoginPage
 
 
 class TestLogin:

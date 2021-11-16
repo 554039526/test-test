@@ -129,6 +129,9 @@ class BasePage:
         else:
             return False
 
+    def switch_to_frame(self, *args):
+        frame = self.driver.find_element(*args)
+        self.driver.switch_to_frame(frame)
 # if __name__ == '__main__':
 #     driver = webdriver.Chrome()
 #     driver.get(r'https://relsagent.joyi.cn/agent/home/ag/login/page')
