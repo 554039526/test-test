@@ -40,6 +40,17 @@ class CustomerCreate(BasePage):
     def input_customer_source(self, value):
         self.input(value, *self.customer_source)
 
+    def input_customer_name(self, value):
+        self.input(value, *self.customer_name)
+
+    def input_customer_phone_master(self, value):
+        self.input(value, *self.customer_phone_master)
+
+    def select_customer_house_need(self):
+        customer_house_need = self.find_element(self.customer_house_need[0], self.customer_house_need[1])
+        self.execute_js('arguments[0].scrollIntoView();', customer_house_need)
+        self.click(*self.customer_house_need)
+
 
 class LoginPage(BasePage):
     # 元素定位器
@@ -68,6 +79,10 @@ if __name__ == '__main__':
     f1 = CustomerCreate(driver)
     f1.switch_create_customer()
     f1.input_customer_source('source')
+    f1.input_customer_name('张三')
+    f1.input_customer_phone_master('13300001234')
+    f1.select_customer_house_need()
+
 
 
 
