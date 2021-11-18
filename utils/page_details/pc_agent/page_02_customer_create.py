@@ -5,8 +5,9 @@
     @Time: 2021/11/16 10:22 下午
     @Author: Wan Wenlong
 """
-from common.base_page import BasePage, get_driver
+from utils.base_page import BasePage, get_driver
 from selenium.webdriver.common.by import By
+import time
 
 
 class CustomerCreate(BasePage):
@@ -29,6 +30,7 @@ class CustomerCreate(BasePage):
     customer_house_need = (By.XPATH, '//*[@id="cust-customer-type"]/div/div/span[1]/label')
     customer_house_provide = (By.XPATH, '//*[@id="cust-customer-type"]/div/div/span[2]/label')
     note = (By.ID, '_easyui_textbox_input11')
+    submit = (By.ID, 'btn-submit')
 
     # 元素操作方法
 
@@ -47,9 +49,12 @@ class CustomerCreate(BasePage):
         self.input(value, *self.customer_phone_master)
 
     def select_customer_house_need(self):
-        customer_house_need = self.find_element(self.customer_house_need[0], self.customer_house_need[1])
-        self.execute_js('arguments[0].scrollIntoView();', customer_house_need)
+        # customer_house_need = self.find_element(self.customer_house_need[0], self.customer_house_need[1])
+        self.execute_js('arguments[0].scrollIntoView();', *self.customer_house_need)
         self.click(*self.customer_house_need)
+
+    def click_submit(self):
+        self.click(*self.submit)
 
 
 class LoginPage(BasePage):
@@ -80,8 +85,13 @@ if __name__ == '__main__':
     f1.switch_create_customer()
     f1.input_customer_source('source')
     f1.input_customer_name('张三')
-    f1.input_customer_phone_master('13300001234')
+    f1.input_customer_phone_master('13300001236')
     f1.select_customer_house_need()
+    f1.click_submit()
+    time.sleep(5)
+    assert '客户创建成功！' in driver.page_source
+    driver.quit()
+
 
 
 

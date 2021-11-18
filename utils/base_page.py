@@ -7,7 +7,7 @@
 """
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
-from common.utils import *
+from utils.utils import *
 import time
 import functools
 

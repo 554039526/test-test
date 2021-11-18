@@ -6,13 +6,13 @@
     @Author: Wan Wenlong
 """
 import pytest
-from common.utils import read_csv, csv_to_dict
-from common.base_page import save_error_screenshot
-from common.page_details.pc_agent.page_01_login import LoginPage
+from utils.utils import read_csv, csv_to_dict
+from utils.base_page import save_error_screenshot
+from utils.page_details.pc_agent.page_01_login import LoginPage
 
 
 class TestRegister:
-    data = read_csv('test_login.csv')
+    data = read_csv('test_01_login.csv')
 
     @save_error_screenshot
     @pytest.mark.register

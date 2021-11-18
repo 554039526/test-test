@@ -20,6 +20,7 @@ cases_path = os.path.join(root_path, 'cases')
 
 # data存放目录
 data_path = os.path.join(root_path, 'data')
+data_path_pc_agent = os.path.join(data_path, 'pc_agent')
 
 # 设置report存放路径
 report_path = os.path.join(root_path, 'reports')
@@ -43,8 +44,13 @@ screenshots_path = os.path.join(report_path, 'screenshots')
 
 
 def read_csv(filename):
+    """
+    读取csv文件，每行作为一个list返回到一个大的list中
+    :param filename:
+    :return:
+    """
     file_content_list = []
-    file_path = os.path.join(data_path, filename)
+    file_path = os.path.join(data_path_pc_agent, filename)
     with open(file_path, 'r') as fp:
         rows = csv.reader(fp)
         for row in rows:
@@ -54,7 +60,8 @@ def read_csv(filename):
 
 def csv_to_dict(string: str):
     """
-    将数据'account=18703651002,\npassword=Beijing@123'转换为dict
+    将数据'account=18703651002,\npassword=Beijing@123'
+    转换为dict:   {'account': '18703651019', 'password': 'Beijing@123'}
     :param string:
     :return:
     """
@@ -83,8 +90,10 @@ def get_data(group_name, key, file=file_dir):
         return res[0]
     return res
 
-# if __name__ == '__main__':
-#     res = csv_to_dict('account=18703651002,\npassword=Beijing@123')
-#
-#     res = get_data('test_login.csv')
-#     print(res)
+
+if __name__ == '__main__':
+    # res = csv_to_dict('account=18703651002,\npassword=Beijing@123')
+    s = ['使用有效管理员账号登录', 'account=18703651019,\npassword=Beijing@123', '我自有的房源']
+    print(csv_to_dict(s[1]))
+    res = read_csv('test_02_customer_create.csv')
+    print(type(res))

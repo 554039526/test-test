@@ -6,7 +6,7 @@
     @Author: Wan Wenlong
 """
 import pytest
-from common.base_page import get_driver
+from utils.base_page import get_driver
 
 browser = 'chrome'
 
