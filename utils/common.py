@@ -29,7 +29,7 @@ def get_phone(business, unique=True, i=1):
     if unique:
         if phone_tel in phone:
             i += 1
-            get_phone(business, unique=True, i=i)
+            return get_phone(business, unique=True, i=i)
         else:
             print(phone_tel)
             return phone_tel
@@ -67,7 +67,7 @@ def get_company_name(unique=False, i=1):
     if unique:
         if res in company:
             i += 1
-            get_company_name(True, i)
+            return get_company_name(True, i)
         else:
             return res
     else:
