@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    @File: utils.py
+    @File: util.py
     @Desc: 
     @Time: 2021/10/22 上午11:23
     @Author: Wan Wenlong
@@ -35,7 +35,8 @@ log_name = os.path.join(log_path, now + '.log')
 file_dir = os.path.join(root_path, 'pytest.ini')
 
 # 配置文件的路径
-conf_dir = os.path.join(root_path, 'conf')
+conf_dir = os.path.join(root_path, 'resources')
+conf_path = os.path.join(conf_dir, 'application.ini')
 
 # 截图存放路径
 if not os.path.exists(os.path.join(report_path, 'screenshots')):
@@ -89,6 +90,21 @@ def get_data(group_name, key, file=file_dir):
     if len(res) == 1:
         return res[0]
     return res
+
+
+cf = configparser.ConfigParser()
+cf.read(conf_path)
+
+
+def getItemsSection(section_name):
+    options_dist = dict(cf.items(section_name))
+    return options_dist
+
+
+# 获取section下某一个option的值
+def getOptionValue(section_name, option_name):
+    value = cf.get(section_name, option_name)
+    return value
 
 
 if __name__ == '__main__':

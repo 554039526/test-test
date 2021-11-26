@@ -6,7 +6,7 @@
     @Author: Wan Wenlong
 """
 import pytest
-from utils.utils import read_csv, csv_to_dict
+from utils.util import read_csv, csv_to_dict
 from utils.base_page import save_error_screenshot
 from utils.page_details.pc_agent.page_01_login import LoginPage
 

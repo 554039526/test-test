@@ -8,7 +8,7 @@
 import pytest
 from utils.page_details.pc_agent.page_01_login import login
 from utils.page_details.pc_agent.page_02_customer_create import CustomerCreate
-from utils.utils import read_csv, csv_to_dict
+from utils.util import read_csv, csv_to_dict
 from utils.base_page import save_error_screenshot
 import time
 

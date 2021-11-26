@@ -6,7 +6,7 @@
     @Author: Wan Wenlong
 """
 import pytest
-from utils.utils import *
+from utils.util import *
 
 
 if __name__ == '__main__':
