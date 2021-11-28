@@ -6,7 +6,7 @@
 是否执行,Y,
 描述,请求参数,返回信息
 使用有效管理员账号登录,"account=18703651019,
-password=Beijing@123",我自有的房源
+password=Beijing@123",退出登录
 使用有效普通账号登录,"account=user1,
 password=123456",！请输入正确的手机号
 不传入账号,"account=,

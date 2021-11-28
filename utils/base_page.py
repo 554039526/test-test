@@ -29,13 +29,12 @@ def save_error_screenshot(func):
     @functools.wraps(func)
     def wrapper(obj, *args, **kwargs):
         try:
-            res = func(obj, *args, **kwargs)
-            return res
-        except Exception as err:
+            return func(obj, *args, **kwargs)
+        except Exception as e:
             if not os.path.exists(os.path.join(screenshots_path, str(now))):
                 os.makedirs(os.path.join(screenshots_path, str(now)))
             obj.driver.save_screenshot(os.path.join(os.path.join(screenshots_path, str(now)), f'{time.time()}.png'))
-            raise err
+            raise e
     return wrapper
 
 
@@ -65,8 +64,8 @@ class BasePage:
             element = WebDriverWait(driver=self.driver, timeout=timeout). \
                 until(method=lambda e: self.driver.find_element(by=locate_type, value=value), message=error_msg)
             return element
-        except Exception as msg:
-            return msg
+        except Exception as e:
+            return None
 
     def find_elements(self, locate_type, value, error_msg=None, timeout=30):
         """
@@ -90,8 +89,8 @@ class BasePage:
             element = WebDriverWait(driver=self.driver, timeout=timeout).\
                 until(method=lambda e: self.driver.find_elements(by=locate_type, value=value), message=error_msg)
             return element
-        except Exception as msg:
-            return msg
+        except Exception as e:
+            return None
 
     def input(self, value, *args):
         """
@@ -117,8 +116,7 @@ class BasePage:
         if element:
             element.click()
             return True
-        else:
-            return False
+        return False
 
     def execute_js(self, js, *args):
         """执行 js 脚本"""
@@ -126,12 +124,13 @@ class BasePage:
         if element:
             self.driver.execute_script(js, element)
             return True
-        else:
-            return False
+        return False
 
     def switch_to_frame(self, *args):
         frame = self.driver.find_element(*args)
         self.driver.switch_to_frame(frame)
+
+
 # if __name__ == '__main__':
 #     driver = webdriver.Chrome()
 #     driver.get(r'https://relsagent.joyi.cn/agent/home/ag/login/page')

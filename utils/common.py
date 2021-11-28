@@ -23,7 +23,7 @@ fake = Faker('zh_CN')
 def get_phone(business: str, unique=True):
     """
     生成对应业务的手机号
-    :param business: 业务， 只能传 company、agent
+    :param business: 业务， 只能传 company、agent、customer
     :param unique: 是否唯一
     :return:
     """
@@ -35,14 +35,14 @@ def get_phone(business: str, unique=True):
             query = getOptionValue('sql', 'select_agent_mobile')
         elif business == 'company':
             query = getOptionValue('sql', 'select_admin_mobile')
+        elif business == 'customer':
+            query = getOptionValue('sql', 'select_customer_mobile')
         all_phone = select_respIsList(query)   # 取数据库中已有的手机号，type：list
 
         if phone_tel in all_phone:  # 判断数据库已存在该手机号则重新生成
             return get_phone(business, unique=True)
-        else:
-            return phone_tel
-    else:
         return phone_tel
+    return phone_tel
 
 
 def get_person_name(sex='Female'):
@@ -70,10 +70,8 @@ def get_company_name(unique=False):
         all_name = select_respIsList(query)
         if res in all_name:
             return get_company_name(True)
-        else:
-            return res
-    else:
         return res
+    return res
 
 
 def get_sms_code(mobile: str, rand=False):
@@ -99,13 +97,15 @@ def get_id(unique=True):
     :param unique:
     :return:
     """
-    id = fake.ssn()
+    pid = fake.ssn()
     if unique:
         query = getOptionValue('sql', 'select_id')
         all_ids = select_respIsList(query)
-        if id in all_ids:
+        if pid in all_ids:
             return get_id(True)
-        else:
-            return id
-    else:
-        return id
+        return pid
+    return pid
+
+
+if __name__ == '__main__':
+    get_id(True)

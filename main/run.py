@@ -7,7 +7,17 @@
 """
 import pytest
 from utils.util import *
+from utils.base_page import get_driver
 
+
+# browser = input(f'请选择使用的浏览器: \n1.chrome；\n2.firefox\n请输入:')
+# if browser == '1':
+#     driver = get_driver('chrome')
+# elif browser == '2':
+#     driver = get_driver('firefox')
+# else:
+#     print('输入错误，请重新运行')
+driver = get_driver('chrome')
 
 if __name__ == '__main__':
 

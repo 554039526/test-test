@@ -13,7 +13,7 @@ import time
 class CustomerCreate(BasePage):
     # 元素定位器
     customer_module = (By.XPATH, '/html/body/div[1]/div[1]/div/div[3]/div')  # 顶部菜单"客户"
-    create_customer = (By.XPATH, '//*[@id="side-menu"]/div[26]')  # 左侧菜单"新增客户"
+    create_customer = (By.XPATH, '//*[@id="side-menu"]/div[27]')  # 左侧菜单"新增客户"
     create_customer_frame = (By.XPATH, '//*[@id="tabs"]/div[2]/div[3]/div/iframe')
     customer_source = (By.XPATH, '//*[@id="_easyui_textbox_input2"]')
     customer_name = (By.ID, '_easyui_textbox_input3')
@@ -27,7 +27,7 @@ class CustomerCreate(BasePage):
     vx = (By.ID, '_easyui_textbox_input8')
     email = (By.ID, '_easyui_textbox_input9')
     address = (By.ID, '_easyui_textbox_input10')
-    customer_house_need = (By.XPATH, '//*[@id="cust-customer-type"]/div/div/span[1]/label')
+    customer_house_demander = (By.XPATH, '//*[@id="cust-customer-type"]/div/div/span[1]/label')
     customer_house_provide = (By.XPATH, '//*[@id="cust-customer-type"]/div/div/span[2]/label')
     note = (By.ID, '_easyui_textbox_input11')
     submit = (By.ID, 'btn-submit')
@@ -48,49 +48,52 @@ class CustomerCreate(BasePage):
     def input_customer_phone_master(self, value):
         self.input(value, *self.customer_phone_master)
 
-    def select_customer_house_need(self):
-        # customer_house_need = self.find_element(self.customer_house_need[0], self.customer_house_need[1])
-        self.execute_js('arguments[0].scrollIntoView();', *self.customer_house_need)
-        self.click(*self.customer_house_need)
+    def select_customer_house_property(self, value):
+        if value == 'demander':
+            self.execute_js('arguments[0].scrollIntoView();', *self.customer_house_demander)
+            self.click(*self.customer_house_demander)
+        if value == 'provider':
+            self.execute_js('arguments[0].scrollIntoView();', *self.customer_house_provide)
+            self.click(*self.customer_house_provide)
 
     def click_submit(self):
         self.click(*self.submit)
 
 
-class LoginPage(BasePage):
-    # 元素定位器
-    user = (By.ID, '_easyui_textbox_input1')
-    pwd = (By.ID, '_easyui_textbox_input4')
-    lg_bt = (By.ID, 'btn-mobile-btn')
+# class LoginPage(BasePage):
+#     # 元素定位器
+#     user = (By.ID, '_easyui_textbox_input1')
+#     pwd = (By.ID, '_easyui_textbox_input4')
+#     lg_bt = (By.ID, 'btn-mobile-btn')
+#
+#     # 元素操作方法
+#     def input_user(self, value):
+#         self.input(value, *self.user)
+#
+#     def input_pwd(self, value):
+#         self.input(value, *self.pwd)
+#
+#     def click_login(self):
+#         self.click(*self.lg_bt)
 
-    # 元素操作方法
-    def input_user(self, value):
-        self.input(value, *self.user)
 
-    def input_pwd(self, value):
-        self.input(value, *self.pwd)
-
-    def click_login(self):
-        self.click(*self.lg_bt)
-
-
-if __name__ == '__main__':
-    driver = get_driver('chrome')
-    driver.get('https://relsagent.joyi.cn/agent/home/ag/login/page')
-    f = LoginPage(driver)
-    f.input_user('18703651001')
-    f.input_pwd('Beijing@123')
-    f.click_login()
-    f1 = CustomerCreate(driver)
-    f1.switch_create_customer()
-    f1.input_customer_source('source')
-    f1.input_customer_name('张三')
-    f1.input_customer_phone_master('13300001236')
-    f1.select_customer_house_need()
-    f1.click_submit()
-    time.sleep(5)
-    assert '客户创建成功！' in driver.page_source
-    driver.quit()
+# if __name__ == '__main__':
+#     driver = get_driver('chrome')
+#     driver.get('https://relsagent.joyi.cn/agent/home/ag/login/page')
+#     f = LoginPage(driver)
+#     f.input_user('18703651001')
+#     f.input_pwd('Beijing@123')
+#     f.click_login()
+#     f1 = CustomerCreate(driver)
+#     f1.switch_create_customer()
+#     f1.input_customer_source('source')
+#     f1.input_customer_name('张三')
+#     f1.input_customer_phone_master('13300001236')
+#     f1.select_customer_house_need()
+#     f1.click_submit()
+#     time.sleep(5)
+#     assert '客户创建成功！' in driver.page_source
+#     driver.quit()
 
 
 

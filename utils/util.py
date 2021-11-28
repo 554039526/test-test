@@ -12,6 +12,7 @@ import re
 import datetime
 import configparser
 
+
 # 项目根目录
 root_path = os.path.dirname(os.path.dirname(__file__))
 
@@ -52,10 +53,14 @@ def read_csv(filename):
     """
     file_content_list = []
     file_path = os.path.join(data_path_pc_agent, filename)
-    with open(file_path, 'r') as fp:
-        rows = csv.reader(fp)
-        for row in rows:
-            file_content_list.append(row)
+    try:
+        with open(file_path, 'r') as fp:
+            rows = csv.reader(fp)
+            for row in rows:
+                file_content_list.append(row)
+    except Exception as e:
+        print(f'未找到文件：{filename}', e)
+        return False
     return file_content_list
 
 
@@ -108,7 +113,7 @@ def getOptionValue(section_name, option_name):
 
 
 if __name__ == '__main__':
-    # res = csv_to_dict('account=18703651002,\npassword=Beijing@123')
+    res = csv_to_dict('account=18703651002,\npassword=Beijing@123')
     s = ['使用有效管理员账号登录', 'account=18703651019,\npassword=Beijing@123', '我自有的房源']
     print(csv_to_dict(s[1]))
     res = read_csv('test_02_customer_create.csv')
