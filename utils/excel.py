@@ -38,9 +38,10 @@ def get_data(sheet):
             list_data = data[1].split(',\n')
         data_dict = {}
         for n in list_data:
-            if n.split('=')[1] == 'random_unique_customer_phone':
-                n.split('=')[1] = get_phone(business='customer', unique=True)
-            data_dict[n.split('=')[0]] = n.split('=')[1]
+            v = n.split('=')[1]
+            if v == 'random_unique_customer_phone':
+                v = get_phone(business='customer', unique=True)
+            data_dict[n.split('=')[0]] = v
         res.append(data_dict)
     return res
 
@@ -68,6 +69,5 @@ def get_pre_info(sheet):
 
 if __name__ == '__main__':
     sheet = get_sheet('test_02_customer_create.xlsx')
-    print(sheet)
-    print(get_pre_info(sheet))
+    print(get_data(sheet))
 

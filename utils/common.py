@@ -31,12 +31,13 @@ def get_phone(business: str, unique=True):
     phone_tel = p.telephone(mask='13#########')  # 生成随机手机号
 
     if unique:  # 是否唯一
+        query = ''
         if business == 'agent':
-            query = getOptionValue('sql', 'select_agent_mobile')
+            query = getOptionValue('sql', 'select_agent_mobile').replace('{condition}', "'"+phone_tel+"'")
         elif business == 'company':
-            query = getOptionValue('sql', 'select_admin_mobile')
+            query = getOptionValue('sql', 'select_admin_mobile').replace('{condition}', "'"+phone_tel+"'")
         elif business == 'customer':
-            query = getOptionValue('sql', 'select_customer_mobile')
+            query = getOptionValue('sql', 'select_customer_mobile').replace('{condition}', "'"+phone_tel+"'")
         all_phone = select_respIsList(query)   # 取数据库中已有的手机号，type：list
 
         if phone_tel in all_phone:  # 判断数据库已存在该手机号则重新生成
@@ -66,7 +67,7 @@ def get_company_name(unique=False):
     res = b.company() + b.company_type()  # 随机生成公司名
 
     if unique:  # 是否唯一
-        query = getOptionValue('sql', 'select_office_name')
+        query = getOptionValue('sql', 'select_office_name').replace('{condition}', "'"+res+"'")
         all_name = select_respIsList(query)
         if res in all_name:
             return get_company_name(True)
@@ -85,7 +86,7 @@ def get_sms_code(mobile: str, rand=False):
     if rand:
         res = random.randint(100000, 999999)
     else:
-        query = getOptionValue('sql', 'select_sms_by_mobile').replace('ins', mobile)
+        query = getOptionValue('sql', 'select_sms_by_mobile').replace('{condition}', "'"+mobile+"'")
         sms_code = select_respIsList(query)
         res = sms_code[0]
     return res
@@ -99,7 +100,7 @@ def get_id(unique=True):
     """
     pid = fake.ssn()
     if unique:
-        query = getOptionValue('sql', 'select_id')
+        query = getOptionValue('sql', 'select_id').replace('{condition}', "'"+pid+"'")
         all_ids = select_respIsList(query)
         if pid in all_ids:
             return get_id(True)
@@ -108,4 +109,4 @@ def get_id(unique=True):
 
 
 if __name__ == '__main__':
-    get_id(True)
+    print(get_phone(business='customer', unique=True))

@@ -24,6 +24,9 @@ def get_driver(browser='chrome'):
     return driver
 
 
+driver = get_driver()
+
+
 def save_error_screenshot(func):
     """ 装饰方法异常时进行保存截图 """
     @functools.wraps(func)
@@ -128,7 +131,7 @@ class BasePage:
 
     def switch_to_frame(self, *args):
         frame = self.driver.find_element(*args)
-        self.driver.switch_to_frame(frame)
+        self.driver.switch_to.frame(frame)
 
 
 # if __name__ == '__main__':

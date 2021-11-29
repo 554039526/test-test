@@ -11,8 +11,7 @@ from utils.page_details.pc_agent.page_02_customer_create import CustomerCreate
 from utils.excel import *
 from utils.base_page import save_error_screenshot
 import time
-from utils.base_page import get_driver
-from main.run import driver
+from utils.base_page import driver, get_driver
 
 
 class TestCreateCustomer:
