@@ -5,9 +5,6 @@
     @Time: 2021/11/18 10:56 下午
     @Author: Wan Wenlong
 """
-from mimesis import Person, Business
-from mimesis.enums import Gender
-from mimesis.schema import Schema
 import random
 from utils.database import select_respIsList
 from utils.util import getOptionValue
@@ -15,8 +12,6 @@ from faker import Faker
 
 
 phone = ['13900000000', '13900000001']
-p = Person('zh')
-b = Business('zh')
 fake = Faker('zh_CN')
 
 
@@ -28,7 +23,7 @@ def get_phone(business: str, unique=True):
     :return:
     """
 
-    phone_tel = p.telephone(mask='13#########')  # 生成随机手机号
+    phone_tel = fake.phone_number()  # 生成随机手机号
 
     if unique:  # 是否唯一
         query = ''
@@ -46,17 +41,12 @@ def get_phone(business: str, unique=True):
     return phone_tel
 
 
-def get_person_name(sex='Female'):
+def get_person_name():
     """
     返回人的姓名
-    :param sex:
     :return:
     """
-    if sex == 'Female':
-        name = p.surname(Gender.FEMALE) + p.name(Gender.FEMALE)
-    else:
-        name = p.surname(Gender.MALE) + p.name(Gender.MALE)
-    return name
+    return fake.name()
 
 
 def get_company_name(unique=False):
@@ -64,7 +54,7 @@ def get_company_name(unique=False):
     返回公司的名称
     :return:
     """
-    res = b.company() + b.company_type()  # 随机生成公司名
+    res = fake.company()  # 随机生成公司名
 
     if unique:  # 是否唯一
         query = getOptionValue('sql', 'select_office_name').replace('{condition}', "'"+res+"'")
