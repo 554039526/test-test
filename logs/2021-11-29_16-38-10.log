@@ -1,0 +1,180 @@
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.address`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.address` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.bank`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.color`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.company`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.company` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.currency`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.geo`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.internet`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.internet` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.job`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.job` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.lorem` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.misc`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.person`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.person` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.ssn` has been localized to `zh_CN`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.address` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.color` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.company` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.job` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.person` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-11-29 16:38:19][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-29 16:38:19][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/url HTTP/1.1" 200 14
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/64d28d08-4590-4eff-bfeb-bfda8dbdc7da/clear {"id": "64d28d08-4590-4eff-bfeb-bfda8dbdc7da"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/64d28d08-4590-4eff-bfeb-bfda8dbdc7da/clear HTTP/1.1" 200 14
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/64d28d08-4590-4eff-bfeb-bfda8dbdc7da/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "64d28d08-4590-4eff-bfeb-bfda8dbdc7da"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/64d28d08-4590-4eff-bfeb-bfda8dbdc7da/value HTTP/1.1" 200 14
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/79e2bb2f-9601-4e5d-aa60-ca4ffe8b6795/clear {"id": "79e2bb2f-9601-4e5d-aa60-ca4ffe8b6795"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/79e2bb2f-9601-4e5d-aa60-ca4ffe8b6795/clear HTTP/1.1" 200 14
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/79e2bb2f-9601-4e5d-aa60-ca4ffe8b6795/value {"text": "Beijing@123", "value": ["B", "e", "i", "j", "i", "n", "g", "@", "1", "2", "3"], "id": "79e2bb2f-9601-4e5d-aa60-ca4ffe8b6795"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/79e2bb2f-9601-4e5d-aa60-ca4ffe8b6795/value HTTP/1.1" 200 14
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-29 16:38:20][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:20][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/281cc597-7b48-4a4f-ab25-54355d656590/click {"id": "281cc597-7b48-4a4f-ab25-54355d656590"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/281cc597-7b48-4a4f-ab25-54355d656590/click HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "/html/body/div[1]/div[1]/div/div[3]/div"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/9f83bef2-ff0a-4049-8852-db442f3ddfbf/click {"id": "9f83bef2-ff0a-4049-8852-db442f3ddfbf"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/9f83bef2-ff0a-4049-8852-db442f3ddfbf/click HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "//*[@id=\"side-menu\"]/div[27]"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/8fd11096-9717-450a-86b2-ef4c193acbc9/click {"id": "8fd11096-9717-450a-86b2-ef4c193acbc9"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/8fd11096-9717-450a-86b2-ef4c193acbc9/click HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "//*[@id=\"tabs\"]/div[2]/div[3]/div/iframe"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/frame {"id": {"ELEMENT": "ed8e8816-9dfa-44a1-830e-c2b9e12eade7", "element-6066-11e4-a52e-4f735466cecf": "ed8e8816-9dfa-44a1-830e-c2b9e12eade7"}}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/frame HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "//*[@id=\"_easyui_textbox_input2\"]"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/3264c812-6d11-43a7-8ae4-fb2f25ee3d2a/clear {"id": "3264c812-6d11-43a7-8ae4-fb2f25ee3d2a"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/3264c812-6d11-43a7-8ae4-fb2f25ee3d2a/clear HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/3264c812-6d11-43a7-8ae4-fb2f25ee3d2a/value {"text": "source", "value": ["s", "o", "u", "r", "c", "e"], "id": "3264c812-6d11-43a7-8ae4-fb2f25ee3d2a"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/3264c812-6d11-43a7-8ae4-fb2f25ee3d2a/value HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input3\"]"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/974bb937-e7b4-4918-b16b-6d0b880f3307/clear {"id": "974bb937-e7b4-4918-b16b-6d0b880f3307"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/974bb937-e7b4-4918-b16b-6d0b880f3307/clear HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/974bb937-e7b4-4918-b16b-6d0b880f3307/value {"text": "random_name", "value": ["r", "a", "n", "d", "o", "m", "_", "n", "a", "m", "e"], "id": "974bb937-e7b4-4918-b16b-6d0b880f3307"}
+[2021-11-29 16:38:21][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/974bb937-e7b4-4918-b16b-6d0b880f3307/value HTTP/1.1" 200 14
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:21][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input5\"]"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/e6a9eab0-a289-4ebc-b117-2afbc6b67fa9/clear {"id": "e6a9eab0-a289-4ebc-b117-2afbc6b67fa9"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/e6a9eab0-a289-4ebc-b117-2afbc6b67fa9/clear HTTP/1.1" 200 14
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/e6a9eab0-a289-4ebc-b117-2afbc6b67fa9/value {"text": "13853365376", "value": ["1", "3", "8", "5", "3", "3", "6", "5", "3", "7", "6"], "id": "e6a9eab0-a289-4ebc-b117-2afbc6b67fa9"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/e6a9eab0-a289-4ebc-b117-2afbc6b67fa9/value HTTP/1.1" 200 14
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "//*[@id=\"cust-customer-type\"]/div/div/span[1]/label"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/execute/sync {"script": "arguments[0].scrollIntoView();", "args": [{"ELEMENT": "05c15c31-2264-4fd9-bfc8-bddc965b5bb9", "element-6066-11e4-a52e-4f735466cecf": "05c15c31-2264-4fd9-bfc8-bddc965b5bb9"}]}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/execute/sync HTTP/1.1" 200 14
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "//*[@id=\"cust-customer-type\"]/div/div/span[1]/label"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/05c15c31-2264-4fd9-bfc8-bddc965b5bb9/click {"id": "05c15c31-2264-4fd9-bfc8-bddc965b5bb9"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/05c15c31-2264-4fd9-bfc8-bddc965b5bb9/click HTTP/1.1" 200 14
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "css selector", "value": "[id=\"btn-submit\"]"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 200 88
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element/ed741b3a-80db-41de-ba93-8d7d5f2df511/click {"id": "ed741b3a-80db-41de-ba93-8d7d5f2df511"}
+[2021-11-29 16:38:22][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element/ed741b3a-80db-41de-ba93-8d7d5f2df511/click HTTP/1.1" 200 14
+[2021-11-29 16:38:22][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:27][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/source {}
+[2021-11-29 16:38:27][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "GET /session/f176e49448722c4edbe064c5d98ff6c0/source HTTP/1.1" 200 6147
+[2021-11-29 16:38:27][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:27][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/element {"using": "xpath", "value": "/html/body/div[1]/div[1]/div/div[3]/div"}
+[2021-11-29 16:38:57][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "POST /session/f176e49448722c4edbe064c5d98ff6c0/element HTTP/1.1" 404 1942
+[2021-11-29 16:38:57][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:57][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0/screenshot {}
+[2021-11-29 16:38:57][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "GET /session/f176e49448722c4edbe064c5d98ff6c0/screenshot HTTP/1.1" 200 221292
+[2021-11-29 16:38:57][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-29 16:38:58][remote_connection.py][remote_connection][_request][388][DEBUG]DELETE http://127.0.0.1:57277/session/f176e49448722c4edbe064c5d98ff6c0 {}
+[2021-11-29 16:38:58][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:57277 "DELETE /session/f176e49448722c4edbe064c5d98ff6c0 HTTP/1.1" 200 14
+[2021-11-29 16:38:58][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request

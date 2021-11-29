@@ -31,9 +31,10 @@ class CustomerCreate(BasePage):
     customer_house_provide = (By.XPATH, '//*[@id="cust-customer-type"]/div/div/span[2]/label')
     note = (By.ID, '_easyui_textbox_input11')
     submit = (By.ID, 'btn-submit')
+    close = (By.CSS_SELECTOR,
+             '#tabs > div.tabs-header.tabs-header-narrow > div.tabs-wrap > ul > li.tabs-selected > a.tabs-close')
 
     # 元素操作方法
-
     def switch_create_customer(self):
         self.click(*self.customer_module)
         self.click(*self.create_customer)
@@ -59,6 +60,9 @@ class CustomerCreate(BasePage):
     def click_submit(self):
         self.click(*self.submit)
 
+    def close_current_tab(self):
+        self.switch_to_parent_frame()
+        self.click(*self.close)
 
 # class LoginPage(BasePage):
 #     # 元素定位器

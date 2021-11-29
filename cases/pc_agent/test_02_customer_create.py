@@ -45,7 +45,8 @@ class TestCreateCustomer:
         f1.select_customer_house_property(user_info['customer_property'])
         f1.click_submit()
         time.sleep(5)
-        assert '客户创建成功！' in driver.page_source
+        assert user_info['response'] in driver.page_source
+        f1.close_current_tab()
 
 
 if __name__ == '__main__':

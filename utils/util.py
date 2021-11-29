@@ -113,8 +113,4 @@ def getOptionValue(section_name, option_name):
 
 
 if __name__ == '__main__':
-    res = csv_to_dict('account=18703651002,\npassword=Beijing@123')
-    s = ['使用有效管理员账号登录', 'account=18703651019,\npassword=Beijing@123', '我自有的房源']
-    print(csv_to_dict(s[1]))
-    res = read_csv('test_02_customer_create.csv')
-    print(type(res))
+    csv_to_dict('account=18703651002,\npassword=Beijing@123')

@@ -13,7 +13,6 @@ from utils.common import *
 
 def get_sheet(file):
     file_path = os.path.join(os.path.join(data_path, 'pc_agent'), file)
-    print(file_path)
     try:
         r = xlrd.open_workbook(file_path)
         sheet = r.sheets()[0]
@@ -36,13 +35,16 @@ def get_data(sheet):
             list_data = data[1].split(',\r\n')
         else:
             list_data = data[1].split(',\n')
+
         data_dict = {}
         for n in list_data:
             v = n.split('=')[1]
             if v == 'random_unique_customer_phone':
                 v = get_phone(business='customer', unique=True)
             data_dict[n.split('=')[0]] = v
+        data_dict['response'] = data[2]
         res.append(data_dict)
+
     return res
 
 

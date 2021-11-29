@@ -133,6 +133,8 @@ class BasePage:
         frame = self.driver.find_element(*args)
         self.driver.switch_to.frame(frame)
 
+    def switch_to_parent_frame(self):
+        self.driver.switch_to.parent_frame()
 
 # if __name__ == '__main__':
 #     driver = webdriver.Chrome()

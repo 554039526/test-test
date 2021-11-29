@@ -11,7 +11,6 @@ from utils.util import getOptionValue
 from faker import Faker
 
 
-phone = ['13900000000', '13900000001']
 fake = Faker('zh_CN')
 
 
