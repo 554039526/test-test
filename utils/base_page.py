@@ -24,9 +24,6 @@ def get_driver(browser='chrome'):
     return driver
 
 
-driver = get_driver()
-
-
 def save_error_screenshot(func):
     """ 装饰方法异常时进行保存截图 """
     @functools.wraps(func)
