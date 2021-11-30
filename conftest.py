@@ -12,7 +12,7 @@ browser = 'chrome'
 
 
 @pytest.fixture(name='driver', params=['1'], scope='module', autouse=False)
-def open_and_close_browser():
+def open_and_close_browser(driver):
     driver = get_driver(browser)
     driver.maximize_window()
     driver.implicitly_wait(10)

@@ -13,6 +13,7 @@ import functools
 
 
 def get_driver(browser='chrome'):
+
     driver = None
     if browser in ['chrome', 'Chrome', 'CHROME']:
         driver = webdriver.Chrome()
@@ -22,9 +23,6 @@ def get_driver(browser='chrome'):
     driver.maximize_window()
     driver.implicitly_wait(30)
     return driver
-
-
-driver = get_driver()
 
 
 def save_error_screenshot(func):
