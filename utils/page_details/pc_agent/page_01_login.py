@@ -26,8 +26,8 @@ class LoginPage(BasePage):
         self.click(*self.lg_bt)
 
 
-def login(driver, username, password):
-    lg = LoginPage(driver)
+def login(username, password):
+    lg = LoginPage()
     lg.input_user(username)
     lg.input_pwd(password)
     lg.click_login()
@@ -36,7 +36,7 @@ def login(driver, username, password):
 if __name__ == '__main__':
     driver = get_driver('chrome')
     driver.get('https://relsagent.joyi.cn/agent/home/ag/login/page')
-    login(driver, '18703651001', 'Beijing@123')
+    login('18703651001', 'Beijing@123')
     # f = LoginPage(driver)
     # f.input_user('18703651001')
     # f.input_pwd('Beijing@123')

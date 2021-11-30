@@ -1,0 +1,448 @@
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.address`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.address` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.bank`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.color`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.company`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.company` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.currency`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.geo`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.internet`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.internet` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.job`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.job` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.lorem` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.misc`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.person`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.person` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.ssn` has been localized to `zh_CN`.
+[2021-11-30 09:30:46][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+[2021-11-30 09:30:47][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2021-11-30 09:30:47][connectionpool.py][connectionpool][_new_conn][205][DEBUG]Starting new HTTP connection (1): 127.0.0.1:50909
+[2021-11-30 09:30:49][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session HTTP/1.1" 200 797
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/window/maximize {}
+[2021-11-30 09:30:49][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/window/maximize HTTP/1.1" 200 51
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/timeouts {"implicit": 30000}
+[2021-11-30 09:30:49][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/timeouts HTTP/1.1" 200 14
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.address`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.address` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.automotive` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.bank`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][111][DEBUG]Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.barcode` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.color`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.color` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.company`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.company` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.currency`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.currency` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.date_time` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.geo`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.geo` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.internet`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.internet` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.job`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.job` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.lorem` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.misc`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.misc` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.person`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.person` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][98][DEBUG]Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][117][DEBUG]Provider `faker.providers.ssn` has been localized to `en_US`.
+[2021-11-30 09:30:49][factory.py][factory][_find_provider_class][130][DEBUG]Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:49][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:49][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/0fea220e-edc2-4d0b-a926-db5331bcb7e0/clear {"id": "0fea220e-edc2-4d0b-a926-db5331bcb7e0"}
+[2021-11-30 09:30:49][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/0fea220e-edc2-4d0b-a926-db5331bcb7e0/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:49][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/0fea220e-edc2-4d0b-a926-db5331bcb7e0/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "0fea220e-edc2-4d0b-a926-db5331bcb7e0"}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/0fea220e-edc2-4d0b-a926-db5331bcb7e0/value HTTP/1.1" 200 14
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/ed150366-846a-48ca-a798-211ba3002054/clear {"id": "ed150366-846a-48ca-a798-211ba3002054"}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/ed150366-846a-48ca-a798-211ba3002054/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/ed150366-846a-48ca-a798-211ba3002054/value {"text": "Beijing@123", "value": ["B", "e", "i", "j", "i", "n", "g", "@", "1", "2", "3"], "id": "ed150366-846a-48ca-a798-211ba3002054"}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/ed150366-846a-48ca-a798-211ba3002054/value HTTP/1.1" 200 14
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/76c5b802-02a3-401f-a9f1-515bd1096736/click {"id": "76c5b802-02a3-401f-a9f1-515bd1096736"}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/76c5b802-02a3-401f-a9f1-515bd1096736/click HTTP/1.1" 200 14
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:50][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 40041
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:50][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/25c0bcca-32e5-444a-9c50-b64099b56536/clear {"id": "25c0bcca-32e5-444a-9c50-b64099b56536"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/25c0bcca-32e5-444a-9c50-b64099b56536/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/25c0bcca-32e5-444a-9c50-b64099b56536/value {"text": "user1", "value": ["u", "s", "e", "r", "1"], "id": "25c0bcca-32e5-444a-9c50-b64099b56536"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/25c0bcca-32e5-444a-9c50-b64099b56536/value HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/1d91a601-4ab3-44c1-a698-6e610c546ff8/clear {"id": "1d91a601-4ab3-44c1-a698-6e610c546ff8"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/1d91a601-4ab3-44c1-a698-6e610c546ff8/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/1d91a601-4ab3-44c1-a698-6e610c546ff8/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "1d91a601-4ab3-44c1-a698-6e610c546ff8"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/1d91a601-4ab3-44c1-a698-6e610c546ff8/value HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/faac76c1-02d8-4552-bf7e-92babcc7add4/click {"id": "faac76c1-02d8-4552-bf7e-92babcc7add4"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/faac76c1-02d8-4552-bf7e-92babcc7add4/click HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17621
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/d068fc18-d52a-4e78-9f93-e19b27aefa2e/clear {"id": "d068fc18-d52a-4e78-9f93-e19b27aefa2e"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/d068fc18-d52a-4e78-9f93-e19b27aefa2e/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/d068fc18-d52a-4e78-9f93-e19b27aefa2e/value {"text": "", "value": [], "id": "d068fc18-d52a-4e78-9f93-e19b27aefa2e"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/d068fc18-d52a-4e78-9f93-e19b27aefa2e/value HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/ce3aa049-4321-4fff-8831-2aea4bc046d3/clear {"id": "ce3aa049-4321-4fff-8831-2aea4bc046d3"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/ce3aa049-4321-4fff-8831-2aea4bc046d3/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/ce3aa049-4321-4fff-8831-2aea4bc046d3/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "ce3aa049-4321-4fff-8831-2aea4bc046d3"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/ce3aa049-4321-4fff-8831-2aea4bc046d3/value HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/70b331c2-c9e0-40df-aec3-668cd62a08d3/click {"id": "70b331c2-c9e0-40df-aec3-668cd62a08d3"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/70b331c2-c9e0-40df-aec3-668cd62a08d3/click HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17623
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/35966ce3-7e0c-4736-b063-14efc66273dd/clear {"id": "35966ce3-7e0c-4736-b063-14efc66273dd"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/35966ce3-7e0c-4736-b063-14efc66273dd/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/35966ce3-7e0c-4736-b063-14efc66273dd/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "35966ce3-7e0c-4736-b063-14efc66273dd"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/35966ce3-7e0c-4736-b063-14efc66273dd/value HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/0ef39da8-550f-417d-930d-51d644887daf/clear {"id": "0ef39da8-550f-417d-930d-51d644887daf"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/0ef39da8-550f-417d-930d-51d644887daf/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/0ef39da8-550f-417d-930d-51d644887daf/value {"text": "", "value": [], "id": "0ef39da8-550f-417d-930d-51d644887daf"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/0ef39da8-550f-417d-930d-51d644887daf/value HTTP/1.1" 200 14
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:51][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:51][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/0e9ff49c-4acd-4fab-9d68-a35658e6bbb1/click {"id": "0e9ff49c-4acd-4fab-9d68-a35658e6bbb1"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/0e9ff49c-4acd-4fab-9d68-a35658e6bbb1/click HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17628
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/c92e475e-08b9-443f-8e64-6013016fdc52/clear {"id": "c92e475e-08b9-443f-8e64-6013016fdc52"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/c92e475e-08b9-443f-8e64-6013016fdc52/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/c92e475e-08b9-443f-8e64-6013016fdc52/value {"text": "19999999999", "value": ["1", "9", "9", "9", "9", "9", "9", "9", "9", "9", "9"], "id": "c92e475e-08b9-443f-8e64-6013016fdc52"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/c92e475e-08b9-443f-8e64-6013016fdc52/value HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/7297e903-6c25-4fa5-9529-949697fc7e7b/clear {"id": "7297e903-6c25-4fa5-9529-949697fc7e7b"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/7297e903-6c25-4fa5-9529-949697fc7e7b/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/7297e903-6c25-4fa5-9529-949697fc7e7b/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "7297e903-6c25-4fa5-9529-949697fc7e7b"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/7297e903-6c25-4fa5-9529-949697fc7e7b/value HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/9f79fa68-faed-4186-83b5-b33855fef2a3/click {"id": "9f79fa68-faed-4186-83b5-b33855fef2a3"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/9f79fa68-faed-4186-83b5-b33855fef2a3/click HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17621
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/4fdf8474-4dfb-4a85-a4af-aee80c138cc8/clear {"id": "4fdf8474-4dfb-4a85-a4af-aee80c138cc8"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/4fdf8474-4dfb-4a85-a4af-aee80c138cc8/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/4fdf8474-4dfb-4a85-a4af-aee80c138cc8/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "4fdf8474-4dfb-4a85-a4af-aee80c138cc8"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/4fdf8474-4dfb-4a85-a4af-aee80c138cc8/value HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/1da31fac-751c-4329-83cd-6dd4f9f9f027/clear {"id": "1da31fac-751c-4329-83cd-6dd4f9f9f027"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/1da31fac-751c-4329-83cd-6dd4f9f9f027/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/1da31fac-751c-4329-83cd-6dd4f9f9f027/value {"text": "123", "value": ["1", "2", "3"], "id": "1da31fac-751c-4329-83cd-6dd4f9f9f027"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/1da31fac-751c-4329-83cd-6dd4f9f9f027/value HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/692e241f-8119-48f3-9e40-b5d9f681db15/click {"id": "692e241f-8119-48f3-9e40-b5d9f681db15"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/692e241f-8119-48f3-9e40-b5d9f681db15/click HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17618
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:52][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:52][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/3b57c0da-636c-43ab-8ecb-1d13c58926a2/clear {"id": "3b57c0da-636c-43ab-8ecb-1d13c58926a2"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/3b57c0da-636c-43ab-8ecb-1d13c58926a2/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/3b57c0da-636c-43ab-8ecb-1d13c58926a2/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "3b57c0da-636c-43ab-8ecb-1d13c58926a2"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/3b57c0da-636c-43ab-8ecb-1d13c58926a2/value HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/d7a738b9-f844-467c-a720-b54d973aabeb/clear {"id": "d7a738b9-f844-467c-a720-b54d973aabeb"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/d7a738b9-f844-467c-a720-b54d973aabeb/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/d7a738b9-f844-467c-a720-b54d973aabeb/value {"text": "Beijing@123", "value": ["B", "e", "i", "j", "i", "n", "g", "@", "1", "2", "3"], "id": "d7a738b9-f844-467c-a720-b54d973aabeb"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/d7a738b9-f844-467c-a720-b54d973aabeb/value HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/c292b528-80a1-43f0-abc4-899c2c1b01be/click {"id": "c292b528-80a1-43f0-abc4-899c2c1b01be"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/c292b528-80a1-43f0-abc4-899c2c1b01be/click HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 40041
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/a10a1ac0-0845-4cab-9a73-71a8ec899876/clear {"id": "a10a1ac0-0845-4cab-9a73-71a8ec899876"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/a10a1ac0-0845-4cab-9a73-71a8ec899876/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/a10a1ac0-0845-4cab-9a73-71a8ec899876/value {"text": "user1", "value": ["u", "s", "e", "r", "1"], "id": "a10a1ac0-0845-4cab-9a73-71a8ec899876"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/a10a1ac0-0845-4cab-9a73-71a8ec899876/value HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/e34d340d-3250-4bf4-a1b4-5fa7f9d48762/clear {"id": "e34d340d-3250-4bf4-a1b4-5fa7f9d48762"}
+[2021-11-30 09:30:53][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/e34d340d-3250-4bf4-a1b4-5fa7f9d48762/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:53][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/e34d340d-3250-4bf4-a1b4-5fa7f9d48762/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "e34d340d-3250-4bf4-a1b4-5fa7f9d48762"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/e34d340d-3250-4bf4-a1b4-5fa7f9d48762/value HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/386b9dc3-07fa-4f07-b4aa-befc273764a8/click {"id": "386b9dc3-07fa-4f07-b4aa-befc273764a8"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/386b9dc3-07fa-4f07-b4aa-befc273764a8/click HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17621
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/b0cac06d-e700-4fe8-8b19-d10b8bb72829/clear {"id": "b0cac06d-e700-4fe8-8b19-d10b8bb72829"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/b0cac06d-e700-4fe8-8b19-d10b8bb72829/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/b0cac06d-e700-4fe8-8b19-d10b8bb72829/value {"text": "", "value": [], "id": "b0cac06d-e700-4fe8-8b19-d10b8bb72829"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/b0cac06d-e700-4fe8-8b19-d10b8bb72829/value HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/9be57faa-e12c-4ebf-b423-530e597cc720/clear {"id": "9be57faa-e12c-4ebf-b423-530e597cc720"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/9be57faa-e12c-4ebf-b423-530e597cc720/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/9be57faa-e12c-4ebf-b423-530e597cc720/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "9be57faa-e12c-4ebf-b423-530e597cc720"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/9be57faa-e12c-4ebf-b423-530e597cc720/value HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/62190b38-ff18-4833-8575-b18fc8b0402e/click {"id": "62190b38-ff18-4833-8575-b18fc8b0402e"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/62190b38-ff18-4833-8575-b18fc8b0402e/click HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17623
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/06ee2f87-8bcd-4c11-a999-d05d8ec2b49a/clear {"id": "06ee2f87-8bcd-4c11-a999-d05d8ec2b49a"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/06ee2f87-8bcd-4c11-a999-d05d8ec2b49a/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/06ee2f87-8bcd-4c11-a999-d05d8ec2b49a/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "06ee2f87-8bcd-4c11-a999-d05d8ec2b49a"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/06ee2f87-8bcd-4c11-a999-d05d8ec2b49a/value HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/f1535541-2ee3-4829-b109-9506bc0c7601/clear {"id": "f1535541-2ee3-4829-b109-9506bc0c7601"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/f1535541-2ee3-4829-b109-9506bc0c7601/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/f1535541-2ee3-4829-b109-9506bc0c7601/value {"text": "", "value": [], "id": "f1535541-2ee3-4829-b109-9506bc0c7601"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/f1535541-2ee3-4829-b109-9506bc0c7601/value HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/2b41a259-f8ed-45d9-8b5d-9945fed7b087/click {"id": "2b41a259-f8ed-45d9-8b5d-9945fed7b087"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/2b41a259-f8ed-45d9-8b5d-9945fed7b087/click HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17628
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/bd65584c-ae84-4af3-896e-59ddd382c53e/clear {"id": "bd65584c-ae84-4af3-896e-59ddd382c53e"}
+[2021-11-30 09:30:54][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/bd65584c-ae84-4af3-896e-59ddd382c53e/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:54][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/bd65584c-ae84-4af3-896e-59ddd382c53e/value {"text": "19999999999", "value": ["1", "9", "9", "9", "9", "9", "9", "9", "9", "9", "9"], "id": "bd65584c-ae84-4af3-896e-59ddd382c53e"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/bd65584c-ae84-4af3-896e-59ddd382c53e/value HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/9ca3533f-c313-4e1c-9839-b9a985d10944/clear {"id": "9ca3533f-c313-4e1c-9839-b9a985d10944"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/9ca3533f-c313-4e1c-9839-b9a985d10944/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/9ca3533f-c313-4e1c-9839-b9a985d10944/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "9ca3533f-c313-4e1c-9839-b9a985d10944"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/9ca3533f-c313-4e1c-9839-b9a985d10944/value HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/b37a2754-b001-48ba-b5b4-f948f100e6de/click {"id": "b37a2754-b001-48ba-b5b4-f948f100e6de"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/b37a2754-b001-48ba-b5b4-f948f100e6de/click HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17621
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/url {"url": "https://relsagent.joyi.cn/agent/home/ag/login/page"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/url HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input1\"]"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/b1c5c61d-4cf7-416a-b34b-205d4287c4db/clear {"id": "b1c5c61d-4cf7-416a-b34b-205d4287c4db"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/b1c5c61d-4cf7-416a-b34b-205d4287c4db/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/b1c5c61d-4cf7-416a-b34b-205d4287c4db/value {"text": "18703651019", "value": ["1", "8", "7", "0", "3", "6", "5", "1", "0", "1", "9"], "id": "b1c5c61d-4cf7-416a-b34b-205d4287c4db"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/b1c5c61d-4cf7-416a-b34b-205d4287c4db/value HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"_easyui_textbox_input4\"]"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/60c1f83a-0312-4ba8-a747-6cc0dbebf0cd/clear {"id": "60c1f83a-0312-4ba8-a747-6cc0dbebf0cd"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/60c1f83a-0312-4ba8-a747-6cc0dbebf0cd/clear HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/60c1f83a-0312-4ba8-a747-6cc0dbebf0cd/value {"text": "123", "value": ["1", "2", "3"], "id": "60c1f83a-0312-4ba8-a747-6cc0dbebf0cd"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/60c1f83a-0312-4ba8-a747-6cc0dbebf0cd/value HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element {"using": "css selector", "value": "[id=\"btn-mobile-btn\"]"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element HTTP/1.1" 200 88
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]POST http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/element/1306d39a-e751-4d87-a449-1a38842e71ba/click {"id": "1306d39a-e751-4d87-a449-1a38842e71ba"}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "POST /session/42fbc3327175e4e0d16bb51c7471144e/element/1306d39a-e751-4d87-a449-1a38842e71ba/click HTTP/1.1" 200 14
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][388][DEBUG]GET http://127.0.0.1:50909/session/42fbc3327175e4e0d16bb51c7471144e/source {}
+[2021-11-30 09:30:55][connectionpool.py][connectionpool][_make_request][393][DEBUG]http://127.0.0.1:50909 "GET /session/42fbc3327175e4e0d16bb51c7471144e/source HTTP/1.1" 200 17618
+[2021-11-30 09:30:55][remote_connection.py][remote_connection][_request][440][DEBUG]Finished Request

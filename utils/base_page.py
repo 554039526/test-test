@@ -40,9 +40,22 @@ def save_error_screenshot(func):
 
 
 class BasePage:
-    def __init__(self, driver):
-        self.driver = driver
-        # self.driver = webdriver.Chrome()
+
+    driver = None
+    # self.driver = webdriver.Chrome()
+
+    @classmethod
+    def get_driver(cls, browser='chrome'):
+        if cls.driver is None:
+            if browser in ['chrome', 'Chrome', 'CHROME']:
+                driver = webdriver.Chrome()
+
+            elif browser in ['firefox', 'FIREFOX', 'Firefox']:
+                driver = webdriver.Firefox()
+            driver.maximize_window()
+            driver.implicitly_wait(30)
+            cls.driver = driver
+        return cls.driver
 
     def find_element(self, locate_type, value, error_msg=None, timeout=30):
         """

@@ -7,6 +7,7 @@
 """
 import pytest
 from utils.util import *
+from utils.base_page import BasePage
 
 
 if __name__ == '__main__':
@@ -17,6 +18,8 @@ if __name__ == '__main__':
         pytest.main(['-v', '--log-file={}'.format(log_name),
                      '--html={}'.format(report_name), '--self-contained-html', cases_path])
 
+        BasePage.driver.quit()  # 执行完后退出浏览器
+
     elif flag == '2':  # 执行特殊标签的测试用例
         marks = get_data('pytest', 'markers')
         print('可供选择的标签：{}'.format(marks))
@@ -25,8 +28,8 @@ if __name__ == '__main__':
         if mark in marks:
             pytest.main(['-v', '-m {}'.format(mark), '--log-file={}'.format(log_name),
                         '--html={}'.format(report_name), '--self-contained-html', cases_path])
+            BasePage.driver.quit()  # 执行完后退出浏览器
         else:
             print('输入的标签不存在')
-
     else:
         print('输入错误，请重新运行')

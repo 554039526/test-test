@@ -6,16 +6,13 @@
     @Author: Wan Wenlong
 """
 import pytest
-from utils.base_page import get_driver
+from utils.base_page import BasePage
+from utils.page_details.pc_agent.page_01_login import login
 
-browser = 'chrome'
 
-
-@pytest.fixture(name='driver', params=['1'], scope='module', autouse=False)
-def open_and_close_browser(driver):
-    driver = get_driver(browser)
-    driver.maximize_window()
-    driver.implicitly_wait(10)
-    yield driver
-    driver.quit()
+@pytest.fixture(name='agent_login', params=['1'], scope='module', autouse=False)
+def agent_login(request):
+    if '退出登录' not in BasePage.driver.page_source:
+        BasePage.driver.get(request.param[0])
+        login(request.param[1]['account'], request.param[1]['password'])
 
