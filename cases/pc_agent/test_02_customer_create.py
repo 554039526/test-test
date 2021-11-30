@@ -15,7 +15,8 @@ import time
 class TestCreateCustomer:
 
     # 取测试数据
-    sheet = get_sheet('test_02_customer_create.xlsx')
+    file_name = os.path.basename(__file__).replace('.py', '.xlsx')
+    sheet = get_sheet(file_name)
     pre_data = get_pre_info(sheet)
     data = get_data(sheet)
     driver = BasePage.get_driver()
@@ -24,7 +25,7 @@ class TestCreateCustomer:
     @save_error_screenshot
     @pytest.mark.create_customer
     @pytest.mark.parametrize('user_info', data)
-    @pytest.mark.parametrize("agent_login", [pre_data], indirect=True)
+    @pytest.mark.parametrize('agent_login', [pre_data], indirect=True)
     @pytest.mark.skipif(pre_data[2] not in ('Y', 'y'), reason='标记不执行')
     def test_create_customer(self, agent_login, user_info):
         f1 = CustomerCreate()

@@ -42,7 +42,6 @@ def save_error_screenshot(func):
 class BasePage:
 
     driver = None
-    # self.driver = webdriver.Chrome()
 
     @classmethod
     def get_driver(cls, browser='chrome'):
@@ -57,7 +56,7 @@ class BasePage:
             cls.driver = driver
         return cls.driver
 
-    def find_element(self, locate_type, value, error_msg=None, timeout=30):
+    def find_element(self, locate_type, value, error_msg=None, timeout=5):
         """
         调用：
             driver = webdriver.Chrome()
@@ -72,14 +71,15 @@ class BasePage:
         :return:
         """
         locate_type = locate_type.lower()
-        if not error_msg:  # 设置默认的 error_msg
-            error_msg = f'元素未找到: {value}'
-        try:
-            element = WebDriverWait(driver=self.driver, timeout=timeout). \
-                until(method=lambda e: self.driver.find_element(by=locate_type, value=value), message=error_msg)
-            return element
-        except Exception as e:
-            return None
+        # if not error_msg:  # 设置默认的 error_msg
+        #     error_msg = f'元素未找到: {value}'
+        for x in range(timeout):
+            try:
+                element = self.driver.find_element(by=locate_type, value=value)
+                return element
+            except Exception as e:
+                time.sleep(1)
+        return None
 
     def find_elements(self, locate_type, value, error_msg=None, timeout=30):
         """

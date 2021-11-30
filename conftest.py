@@ -16,3 +16,4 @@ def agent_login(request):
         BasePage.driver.get(request.param[0])
         login(request.param[1]['account'], request.param[1]['password'])
 
+

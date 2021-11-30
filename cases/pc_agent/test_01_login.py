@@ -9,29 +9,24 @@ import pytest
 from utils.base_page import save_error_screenshot, BasePage
 from utils.page_details.pc_agent.page_01_login import LoginPage
 from utils.excel import *
+import os
 
 
 class TestLogin:
-    sheet = get_sheet('test_01_login.xlsx')
+
+    # 获取测试数据
+    file_name = os.path.basename(__file__).replace('.py', '.xlsx')
+    sheet = get_sheet(file_name)
     data = get_data(sheet)
     pre_data = get_pre_info(sheet)
     driver = BasePage.get_driver()
 
-    # def setup_class(self):
-    #     try:
-    #         self.driver = driver
-    #     except Exception as e:
-    #         self.driver = get_driver('chrome')
-    #
-    # def teardown_class(self):
-    #     self.driver.quit()
-
+    # 执行测试
     @save_error_screenshot
     @pytest.mark.login
     @pytest.mark.parametrize('user_info', data)
     @pytest.mark.skipif(pre_data[2] not in ('Y', 'y'), reason='标记不执行')
     def test_login(self, user_info):
-        # self.driver = driver
         f = LoginPage()
         self.driver.get(self.pre_data[0])
         f.input_user(user_info['account'])
