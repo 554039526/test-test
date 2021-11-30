@@ -61,15 +61,19 @@ def get_pre_info(sheet):
         login_info_dict = {}
         for n in list_data:
             login_info_dict[n.split('=')[0]] = n.split('=')[1]
+    except Exception as e:
+        login_info_dict = None
 
+    try:
         # 获取当前用例是否执行
         exe = sheet.row_values(3)[1]
-        return url, login_info_dict, exe
     except Exception as e:
-        return url, None, None
+        exe = None
+
+    return url, login_info_dict, exe
 
 
 if __name__ == '__main__':
-    sheet = get_sheet('test_02_customer_create.xlsx')
-    print(get_data(sheet))
+    sheet = get_sheet('test_01_login.xlsx')
+    print(get_pre_info(sheet))
 

@@ -11,7 +11,6 @@ from utils.page_details.pc_agent.page_02_customer_create import CustomerCreate
 from utils.excel import *
 from utils.base_page import save_error_screenshot
 import time
-from utils.base_page import driver, get_driver
 
 
 class TestCreateCustomer:
@@ -20,23 +19,16 @@ class TestCreateCustomer:
     pre_data = get_pre_info(sheet)
     data = get_data(sheet)
 
-    def setup_class(self):
-        if driver:
-            self.driver = driver
-        else:
-            self.driver = get_driver('chrome')
-
-        self.driver.get(self.pre_data[0])
-        login(self.driver, self.pre_data[1]['account'], self.pre_data[1]['password'])
-
-    def teardown_class(self):
-        self.driver.quit()
+    # coding
+    # def setup_class(self):
+    #     self.driver.get(self.pre_data[0])
+    #     login(self.driver, self.pre_data[1]['account'], self.pre_data[1]['password'])
 
     @save_error_screenshot
     @pytest.mark.create_customer
     @pytest.mark.parametrize('user_info', data)
     @pytest.mark.skipif(pre_data[2] not in ('Y', 'y'), reason='标记不执行')
-    def test_create_customer(self, user_info):
+    def test_create_customer(self, driver, user_info):
         f1 = CustomerCreate(driver)
         f1.switch_create_customer()
         f1.input_customer_source(user_info['customer_source'])
